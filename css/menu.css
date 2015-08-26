@@ -1,0 +1,28 @@
+.b-wrap .b-counter{
+	background-color: #3c5c6a;
+	margin-left: 40%;
+	margin-right: 40%;
+	color: #fff;
+}
+
+.wrapper{
+	padding-top: 40px;
+}
+#gotopage{
+	text-align: right;
+}
+
+#in_go {
+	width: 100px;
+	margin-right: 10px;
+}
+
+/************************
+ESTILOS PROPIOS DEL LIBRO
+**************************/
+#portada, #contra{
+	text-align: center;
+	background-color: #AFE871;
+	padding: 20px;
+	height: 560px;
+}

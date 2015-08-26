@@ -1,0 +1,267 @@
+/*+++++++++++++++++++++
+ESTILOS GENERALES
+++++++++++++++++++++++*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul li {
+	margin-bottom: 15px;
+}
+
+body {
+	background: #EDF1F0;
+	padding-top: 0;
+}
+
+/*+++++++++++++++++
+	ESTILOS HEADER
++++++++++++++++++++*/
+
+ #main-header{
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+	/*background-color: #B3CBB6;*/
+	z-index: 1041;
+
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.95);
+
+	-moz-box-shadow: 0 1px 5px #999;
+	-webkit-box-shadow: 0 1px 5px #999;
+	box-shadow: 0 1px 5px #999;
+
+}
+
+#main-logo{
+	margin-top: 10px;
+	height: 90px;
+}
+
+/*++++++++++++++++++
+ESTILOS PARA LOS BOTONES DE NAVEGACIÓN
+++++++++++++++++++++*/
+#main-menu{
+	float: left;
+	margin-top: 30px;
+}
+
+#main-menu a {
+	color: #A21818;
+	font-size: 15px;
+}
+
+#main-menu a:hover {
+	color: #42A82E;
+	font-family: bookman old style;
+}
+
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover {
+	background:none;
+}
+
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus {
+	color: #42A82E;
+}
+
+#main-menu.nav .open>a,
+#main-menu.nav .open>a:hover,
+#main-menu.nav .open>a:focus {
+	background: none;
+}
+
+
+/*+++++++++++++++
+	Iniciar Sesión
++++++++++++++++++*/
+#sesi {
+	float: right;
+}
+
+#sesi {
+	text-decoration: none;
+	color:#A21818;
+}
+
+#sesi:hover {
+	color: #42A82E;
+}
+
+/*+++++++++++++++++++++++++++
+ESTILOS PIE DE PÁGINA
++++++++++++++++++++++++++++++*/
+
+.pie{
+	background-color: #171817;
+	width: 100%;
+	color: #FFFFFF;
+	padding-top:20px;
+}
+
+hr #hrmain{
+	background-color: black;
+}
+
+/*+++++++++++++++++
+SOCIAL MEDIA
++++++++++++++++++++*/
+ul #socialMedia{
+	width: 320px;
+	height:60px;
+	float: left;
+	margin: 0 30px 0 0;
+}
+#socialMedia li{
+	float:left;
+}
+#socialMedia li#facebook a{
+	width:60px; 
+	height:60px;
+	display:block;
+	background:url(../img/socialm/facebook.png) 0 0 no-repeat;
+	color: transparent;
+}
+#socialMedia li#facebook a:hover{ 
+	background:url(../img/socialm/facebook.png) 0 -98px no-repeat;
+}
+#socialMedia li#twitter a{
+	width:60px; height:60px;
+	display:block;
+	background:url(../img/socialm/twitter.png) 0 0 no-repeat;
+	color: transparent;
+}
+#socialMedia li#twitter a:hover{
+	background:url(../img/socialm/twitter.png) 0 -98px no-repeat;
+}
+#socialMedia li#youtube a{
+	width:60px; height:60px;
+	display:block;
+	background:url(..//img/socialm/youtube.png) 0 0 no-repeat;
+	color: transparent;
+}
+#socialMedia li#youtube a:hover{
+	background:url(../img/socialm/youtube.png) 0 -98px no-repeat;
+}
+
+/*******************
+	FONTS
+********************/
+.ir-arriba {
+	display: none;
+	padding: 20px;
+	background: #6284DB;
+	font-size: 20px;
+	color: #FFFFFF;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+/*+++++++++++++++++++
+	HOME
++++++++++++++++++++++*/
+#sliderr{
+	margin-top: 100px;
+}
+
+#fb{
+	background-color: #1456DC;
+	color: #FFFFFF;
+}
+#siguenos{
+	margin-top: 2px;
+}
+
+#lema{
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+/*+++++++++++++++++++
+	GALERÍAS
++++++++++++++++++++++*/
+#galery{
+	margin-top: 30px;
+	border-radius: 20px;
+}
+
+#main-galery{
+	margin-top: 20px;
+}
+
+/*************************
+	MENU ALIMENTOS
+**************************/
+#meals{
+	margin-top: 95px;
+}
+
+#wrapper{
+	margin-top: 10px ;
+}
+
+#nuestras{
+	text-align: center;
+	font-size: 30px;
+	font-family: arial black;
+}
+/*hr{
+	color: red;
+	position: relative;
+	display: inline-block;
+}*/
+
+/*************************
+	MENU BEBIDAS
+**************************/
+#main-bebidas{
+	margin-top: 10px;
+	margin: 0 auto;
+	width: 900px;
+	height: 900px;
+}
+#drinks{
+	margin-top: 100px;
+}
+	/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+	/*.menu-fixed {
+		position: fixed;
+		z-index:1000;
+		top:0;
+		max-width:1000px;
+		width:100%;
+		box-shadow:0px 4px 3px rgba(0,0,0,.5);
+	}*/
+
+
+/**********************
+	¿QUÍENES SOMOS?
+**********************/
+#why-us{
+	margin-top: 55px;
+}
+
+/**********************
+	CONTACTO
+**********************/
+#cont{
+	margin-top: 100px;
+}
+
+.contac{
+	text-align: center;
+}
